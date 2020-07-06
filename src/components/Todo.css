@@ -1,0 +1,28 @@
+*{
+    font-family: sans-serif;
+}
+.App{
+    background-color: aqua;
+    padding: 4%;
+}
+body{
+    background-color: red;
+}
+.todo.completed{
+    color: grey;
+    text-decoration: line-through;
+    background-color: purple;
+}
+input:focus{
+    border: aqua;
+}
+.todo{
+    padding: 1%;
+    border: 2px solid brown;
+    width: 20%;
+    margin: 3%;
+    background-color: azure;
+}
+.todo:hover{
+    background-color: purple;
+}
